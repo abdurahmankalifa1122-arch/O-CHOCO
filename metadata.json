@@ -1,0 +1,6 @@
+{
+  "name": "O'CHOCO Rollay Biscuits",
+  "description": "Discover O'CHOCO Rollay Biscuits by PAPELÉE — premium chocolate-flavored spiral rollay biscuits crafted for your everyday moments in Ethiopia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
