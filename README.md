@@ -62,4 +62,4 @@ npm run dev
 ```bash
 npm run build
 ```
-Build output is generated in `./dist` using relative asset paths (`base: './'`).
+Build output is generated in `./dist` configured with base path `/O-CHOCO/` for GitHub Pages.
