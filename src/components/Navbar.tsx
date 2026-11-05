@@ -56,12 +56,13 @@ export const Navbar: React.FC<NavbarProps> = () => {
               className="flex items-center gap-3 group shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#D99A32]"
               aria-label="O'CHOCO Rollay Biscuits Home"
             >
-              <div className="relative h-9 sm:h-11 w-auto max-w-[160px] sm:max-w-[210px] overflow-hidden flex items-center">
+              <div className="relative w-[100px] h-[40px] overflow-hidden flex items-center">
                 <ImageWithFallback
                   src={BRAND_ASSETS.logo.localSrc}
                   fallbackSrc={BRAND_ASSETS.logo.remoteSrc}
                   alt="O'CHOCO Logo"
-                  className="h-full w-auto object-contain brightness-105 transition-transform duration-300 group-hover:scale-105"
+                  style={{ width: '100px', height: '40px' }}
+                  className="w-[100px] h-[40px] object-contain brightness-105 transition-transform duration-300 group-hover:scale-105"
                   showSkeleton={false}
                 />
               </div>
